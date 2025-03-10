@@ -9,7 +9,14 @@
 <body>
     <h1>🧀 Welcome to the Cheesy Cheese Cult! 🧀</h1>
     <p>Join the cult and embrace the cheese.</p>
-    <button id="applyBtn">Apply for Membership</button>
+
+    <!-- Application Form -->
+    <form id="applicationForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="favoriteCheese" placeholder="Your Favorite Cheese" required>
+        <textarea id="reason" placeholder="Why should you join?" required></textarea>
+        <button type="submit">Apply for Membership</button>
+    </form>
 
     <script src="script.js"></script>
 </body>
