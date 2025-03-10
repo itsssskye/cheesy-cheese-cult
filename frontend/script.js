@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-document.getElementById("applyBtn").addEventListener("click", function() {
-    alert("Your cheese application has been received! 🧀");
-=======
 // Set the backend URL (use the production URL when deployed)
-const backendUrl = 'https://cheesy-cheese-cult.onrender.com';  // Replace with your Render backend URL
+const backendUrl = 'https://cheesy-cheese-cult-backend.onrender.com';  // Replace with your Render backend URL
 
 document.getElementById("applicationForm").addEventListener("submit", function (event) {
     event.preventDefault();
@@ -28,5 +24,4 @@ document.getElementById("applicationForm").addEventListener("submit", function (
     .catch(error => {
         alert('Error: ' + error);  // Handle any errors
     });
->>>>>>> Stashed changes
 });
